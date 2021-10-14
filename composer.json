@@ -35,7 +35,7 @@
         "magento/module-wishlist-sample-data": "100.4.*",
         "magento/product-community-edition": "2.4.3",
         "magento/sample-data-media": "100.4.*",
-        "weltpixel/m2-weltpixel-owl-carousel-slider": "v1.10.6"
+        "weltpixel/m2-weltpixel-owl-carousel-slider": "1.10.6"
     },
     "autoload": {
         "exclude-from-classmap": [

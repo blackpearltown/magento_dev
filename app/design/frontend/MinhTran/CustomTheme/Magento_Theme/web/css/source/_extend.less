@@ -66,6 +66,9 @@
         top: 0px;
     }
 
+    a.logo {
+        margin: 15px auto 15px 0;
+    }
 
     ul.header.links { 
         box-sizing: border-box;
@@ -111,18 +114,22 @@
         box-sizing: border-box;
         color: #303030;
         display: flex;
+        align-items: center;
         font-family: "Source Sans Pro", sans-serif;
         font-size: 14px;
         left: 0px;
         letter-spacing: 1px;
         line-height: 20px;
         max-width: 1400px;
-        padding-top: 10px;
         position: relative;
+        padding-top: 0px;
         right: 0px;
         text-transform: uppercase;
         top: 0px;
         transition: opacity 0.25s ease-in-out 0s;
+    }
+    .block-search div.control {
+        padding: 0 0 5px;
     }
     div.header.content::before { 
         content: "";
@@ -230,6 +237,20 @@
 
     div.pagebuilder-column.promo-column:hover{
         opacity: 0.6;
+    }
+//
+//  PRODUCT CAROUSEL CONTAINER
+//  ---------------------------------------------
+
+    div.owl-next { 
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        color: #ffffff;
+        user-select: none;
+    }
+    div.owl-next:hover { 
+        background: rgba(255, 255, 255, 0);
+        color: #000000;
     }
 
 //
