@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+        <policies>
+            <policy id="script-src">
+                <values>
+                    <value id="cloudflare" type="host">https://*.cloudflare.com</value>
+                    <value id="jquery" type="host">https://*.jquery.com</value>
+                    <value id="bootstrapcdn" type="host">https://*.bootstrapcdn.com</value>
+                </values>
+            </policy>
+            <policy id="style-src">
+                <values>
+                   <value id="cloudflare" type="host">https://*.cloudflare.com</value>
+                    <value id="jquery" type="host">https://*.jquery.com</value>
+                    <value id="bootstrapcdn" type="host">https://*.bootstrapcdn.com</value>
+                </values>
+            </policy>
+            <policy id="connect-src">
+                <values>
+                    <value id="cloudflare" type="host">https://*.cloudflare.com</value>
+                    <value id="jquery" type="host">https://*.jquery.com</value>
+                    <value id="bootstrapcdn" type="host">https://*.bootstrapcdn.com</value>
+                </values>
+            </policy>
+            <policy id="font-src">
+                <values>
+                    <value id="cloudflare" type="host">https://*.cloudflare.com</value>
+                    <value id="jquery" type="host">https://*.jquery.com</value>
+                    <value id="bootstrapcdn" type="host">https://*.bootstrapcdn.com</value>
+                </values>
+            </policy>
+             <policy id="img-src">
+            <values>
+                <value id="cloudflare" type="host">https://*.cloudflare.com</value>
+                <value id="klarna-base" type="host">https://*.klarna.com</value>
+                <value id="googleadservices" type="host">https://*.googleadservices.com</value>
+                <value id="google-analytics" type="host">https://*.google-analytics.com</value>
+                <value id="paypal" type="host">https://*.paypal.com</value>
+                <value id="twitter.com" type="host">https://*.twitter.com</value>
+                <value id="twimg" type="host">https://*.twimg.com</value>
+                <value id="vimeocdn" type="host">https://*.vimeocdn.com</value>
+                <value id="youtube-img" type="host">https://*.ytimg.com</value>
+                <value id="data" type="host">‘self’ data:</value>
+                <value id="fontawesome" type="host">https://*.bing.com</value>
+                <value id="zopim" type="host">https://*.zopim.com</value>
+                <value id="zopimio" type="host">https://*.zopim.io</value>
+                <value id="doubleclick" type="host">https://*.doubleclick.net</value>
+                <value id="google" type="host">https://*.google.com</value>
+                <value id="googlein" type="host">https://*.google.co.in</value>
+                <value id="mastercard" type="host">https://*.mastercard.com</value>
+                 <value id="cloudinary" type="host">https://*.cloudinary.com</value>
+            </values>
+        </policy>
+        </policies>
+</csp_whitelist>

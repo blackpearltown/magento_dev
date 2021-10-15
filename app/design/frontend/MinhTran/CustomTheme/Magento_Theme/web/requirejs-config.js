@@ -11,15 +11,24 @@ var config = {
 var config = {
     paths: {
         'bootstrap': [
-            'Magento_Theme/js/bootstrap.bundle',
-            'Magento_Theme/js/jquery-3.2.1.slim.min.js',
-            'Magento_Theme/js/popper.min.js',
-
+            'Magento_Theme/js/bootstrap.bundle.min.js',
+            'Magento_Theme/js/jquery.slim.min.js',
+            'Magento_Theme/js/popper.min.js'
         ]
 
     },
     shim: {
         'bootstrap': {
+            deps: ['jquery']
+        }
+    }
+};
+var config = {
+    paths: {
+        'backtotop': 'Magento_Theme/js/backtotop.js'
+    },
+    shim: {
+        'backtotop': {
             deps: ['jquery']
         }
     }

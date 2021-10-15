@@ -14,6 +14,9 @@
                 </arguments>
             </block>
         </referenceContainer>
+        <referenceContainer name="before.body.end">
+             <block name="go.to.top" template="Magento_Theme::gototop.phtml" />
+         </referenceContainer>
         <referenceContainer name="footer">
             <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="Magento_Store::switch/stores.phtml" display="false"/>
         </referenceContainer>

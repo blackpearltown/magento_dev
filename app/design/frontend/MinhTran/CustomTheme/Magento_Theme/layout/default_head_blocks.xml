@@ -2,11 +2,16 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <script type="text/javascript" src="requirejs-config.js"></script>
+        <script src="requirejs-config.js"></script>
+        <script src="Magento_Theme::requirejs-config.js"></script>
         <!--Font Awesome-->
-        <css src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" src_type="url" rel="stylesheet" type="text/css"/>
+        <css src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" src_type="url" rel="stylesheet"/>
         <!--Bootraps 4-->
-        <css src="Magento_Theme::css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <script type="text/javascript">require(['bootstrap']);</script>
+        <css src="Magento_Theme::css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="Magento_Theme::js/bootstrap.bundle.min.js"></script>
+        <script src="Magento_Theme::js/jquery.slim.min.js"></script>
+        <script src="Magento_Theme::js/popper.min.js"></script>
+        <script src="Magento_Theme::js/backtotop.js"></script>
+        
     </head>
 </page>
