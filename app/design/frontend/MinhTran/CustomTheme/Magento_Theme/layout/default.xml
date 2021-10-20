@@ -14,9 +14,6 @@
                 </arguments>
             </block>
         </referenceContainer>
-        <referenceContainer name="before.body.end">
-             <block name="go.to.top" template="Magento_Theme::gototop.phtml" />
-         </referenceContainer>
         <referenceContainer name="footer">
             <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="Magento_Store::switch/stores.phtml" display="false"/>
         </referenceContainer>
@@ -32,6 +29,9 @@
                 <block class="Magento\Framework\View\Element\Template" name="report.bugs" template="Magento_Theme::html/bugreport.phtml" ifconfig="design/footer/report_bugs"/>
             </container>
         </referenceContainer>
+        <referenceContainer name="before.body.end">
+             <block name="go.to.top" template="Magento_Theme::gototop.phtml" />
+         </referenceContainer>
         <referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
     </body>

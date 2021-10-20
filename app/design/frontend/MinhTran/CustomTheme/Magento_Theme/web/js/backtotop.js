@@ -1,7 +1,7 @@
 require(['jquery', 'domReady!'], function ($) {
     $(document).ready(function() {
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 20) {
+            if ($(this).scrollTop() > 50) {
                 $('#toTopBtn').fadeIn();
             } else {
                 $('#toTopBtn').fadeOut();
